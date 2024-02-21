@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: lightgrey;
+    border: 10px solid black;
+    min-height: 100vh;
+}
+.container{
+    margin: 10px auto;
+    max-width: 900px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.image{
+    width: 300px;
+    height: 320px;
+    margin-left: 20px;
+}
+.profile-img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    padding: 3px;
+}
+.text-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.Main-name{
+    font-size: 52px;
+    font-weight: 600;
+}
+.Birth-year{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+.Description{
+    margin-left: 20px;
+}
+.Title{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text{
+    line-height: 20pt;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.link{
+    margin-top: 20px;
+    text-align: right;
+}
+.Biography,h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.Biography ,ul{
+    margin-left: 90px;
+    line-height: 30pt;
+}
+
